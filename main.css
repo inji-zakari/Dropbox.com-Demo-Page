@@ -5,11 +5,10 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 html, body{
-    width: 100vw;
     max-width: 100vw;
     height: 100vh;
 }
-.container{
+.container-custom{
     width: 100%;
 }
 .size-1{
@@ -42,6 +41,9 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 .ml-3{
     margin-left: 3rem;
 }
+.ml-14{
+    margin-left: 14rem;
+}
 .ml-0{
     margin-left: 0;
 }
@@ -51,9 +53,9 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 .mb-0-5{
     margin-bottom: 0.5;
 }
-.mt-1{
+/* .mt-1{
 margin-top: 1.5rem;
-}
+} */
 .mt-2{
     margin-top: 2rem;
 }
@@ -123,6 +125,15 @@ padding-left: 2rem;
 }
 .h-8{
     height: 8px;
+}
+
+.card-inner img{
+    width: 50px;
+    height: 50px;
+}
+.card-inner-count img{
+    width: 90px;
+    height: 80px;
 }
 
 .black-div-1{
@@ -195,6 +206,9 @@ padding-left: 2rem;
 .font-fam-roman{
     font-family: 'Times New Roman', Times, serif
 }
+.font-fam-ar{
+    font-family: Arial, Helvetica, sans-serif
+}
 .learn-more{
     color: black;
 }
@@ -239,6 +253,7 @@ justify-content: space-around;
     color: black;
     font-weight: 100;
     text-align: center;
+    margin-top: 4rem;
 }
 
 .white-div-card-1{
@@ -251,6 +266,8 @@ justify-content: space-around;
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 0 auto;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
 }
 
 .card-inner-b .logo{
@@ -275,7 +292,42 @@ justify-content: space-around;
 .img-side img{
     width: 100%;
 }
-/* 
-.img-content{
-    display: flex;
+
+.text-side{
+    font-size: 1.1rem;
+    border-left: #fff;
+}
+.f-plan-2{
+    height: 90px;
+}
+.f-plan-2 img{
+    width: 20px;
+    height: 20px;
+}
+
+/* .header-text-dropbox-help{
+    background-color: #c0bbb4;
+}
+
+.section-2{
+    background-color: #c0bbb4;
 } */
+
+.div-blue{
+    background-color: #14c8eb;
+}
+
+.div-blue img{
+    width: 40rem;
+    height: 26rem;
+    margin-top: 12rem;
+}
+
+.card-inner-b-color img{
+ width: 50px;
+ height: 50px;
+}
+
+.div-1-cont{
+    width: 90%;
+}
